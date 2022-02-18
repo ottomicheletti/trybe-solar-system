@@ -9,13 +9,13 @@ class Missions extends Component {
       <div data-testid="missions">
         <Title headline="Missões" />
         <ul>
-          {missions.map((mission) => (
-            <li key={ mission.name }>
+          {missions.map(({ name, year, country, destination }) => (
+            <li key={ name }>
               <MissionCard
-                name={ mission.name }
-                year={ mission.year }
-                country={ mission.country }
-                destination={ mission.destination }
+                name={ name }
+                year={ year }
+                country={ country }
+                destination={ destination }
               />
             </li>
           ))}
