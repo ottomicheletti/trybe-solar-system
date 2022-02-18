@@ -9,29 +9,25 @@ header {
 }
 
 h2 {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(0, 0, 0, 0.4);
   border: 1px white solid;
-  border-radius: 10px;
+  border-radius: 5px;
+  padding: 10px;
   text-align: center;
   text-shadow: 2px 2px 1px black;
 }
 
 ul {
   align-items: center;
-  border: 1px white solid;
-  border-radius: 10px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   list-style: none;
   padding: 10px;
   text-align: center;
 }
 
 .planet-card {
-  background-color: rgba(255, 255, 255, 0.4);
-  border: 1px white solid;
-  border-radius: 10px;
   margin: 5px;
   text-shadow: 2px 2px 1px black;
 }
@@ -41,10 +37,19 @@ ul {
 }
 
 .mission-card {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(0, 0, 0, 0.4);
   border: 1px white solid;
   border-radius: 10px;
-  margin: 5px;
-  padding: 10px;
+  height: 180px;
+  margin: 10px;
   text-shadow: 2px 2px 1px black;
+  width: 210px;
+}
+
+.mission-title {
+  font-weight: 1000;
+}
+
+.mission-info {
+  border-top: 1px white solid;
 }
