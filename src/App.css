@@ -1,3 +1,43 @@
-.App {
+body {
+  background-image: url('./images/background.png');
+  color: white;
+}
+
+header {
+  border: 2px black solid;
   text-align: center;
+}
+
+h2 {
+  border: 1px white solid;
+  border-radius: 10px;
+  text-align: center;
+}
+
+ul {
+  align-items: center;
+  border: 1px white solid;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  text-align: center;
+}
+
+.planet-card {
+  border: 1px white solid;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.planet-image {
+  width: 200px;
+}
+
+.mission-card {
+  border: 1px white solid;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 10px;
 }
