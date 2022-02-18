@@ -10,6 +10,6 @@ class Title extends Component {
   }
 }
 
-Title.propTypes = PropTypes.strin;
+Title.propTypes = PropTypes.string;
 
 export default Title;
