@@ -9,9 +9,11 @@ header {
 }
 
 h2 {
+  background-color: rgba(255, 255, 255, 0.4);
   border: 1px white solid;
   border-radius: 10px;
   text-align: center;
+  text-shadow: 2px 2px 1px black;
 }
 
 ul {
@@ -20,15 +22,18 @@ ul {
   border-radius: 10px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   list-style: none;
+  padding: 10px;
   text-align: center;
 }
 
 .planet-card {
+  background-color: rgba(255, 255, 255, 0.4);
   border: 1px white solid;
   border-radius: 10px;
   margin: 5px;
+  text-shadow: 2px 2px 1px black;
 }
 
 .planet-image {
@@ -36,8 +41,10 @@ ul {
 }
 
 .mission-card {
+  background-color: rgba(255, 255, 255, 0.4);
   border: 1px white solid;
   border-radius: 10px;
   margin: 5px;
   padding: 10px;
+  text-shadow: 2px 2px 1px black;
 }
